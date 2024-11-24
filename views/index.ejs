@@ -9,9 +9,9 @@
 
 
   <% if(locals.currentWords){%>
-    <h1>The Letters generated are <%= currentWords %></h1>
+    <h1><%= currentWords %></h1>
       <% }else {%>
-        <h1>Default H1 below</h1>
+        <h1>Welcome, </h1>
         <% } %>
 
           <form action="/submit" method="POST">
